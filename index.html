@@ -29,7 +29,7 @@
             font-family: 'Satoshi', sans-serif;
             background-color: #ffe4eb;
             color: var(--text-light);
-            overflow: hidden;
+            overflow: auto;
             touch-action: manipulation;
             margin: 0;
             padding: 0;
@@ -107,7 +107,7 @@
             left: 50%;
             transform: translate(-50%, -50%) scale(0.95);
             width: 90%;
-            max-width: 300px;
+            max-width: 600px;
             background: transparent;
             backdrop-filter: blur(15px);
             -webkit-backdrop-filter: blur(20px);
@@ -219,7 +219,7 @@
             grid-column: span 2;
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 300px) {
             .bento-grid {
                 grid-template-columns: 1fr;
             }
